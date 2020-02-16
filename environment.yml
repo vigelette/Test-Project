@@ -1,0 +1,11 @@
+name: frameworkenv
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - pytorch
+  - torchvision
+  - pillow=6.2.1
+  - pip:
+    - azureml-sdk
